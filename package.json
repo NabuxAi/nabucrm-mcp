@@ -1,0 +1,23 @@
+{
+  "name": "nabudesk-mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server for operating NabuDesk — businesses, knowledge base and support diagnostics.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "check": "tsc --noEmit",
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
